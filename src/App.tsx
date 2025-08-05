@@ -10,3 +10,15 @@ const navClass = ({ isActive }: { isActive: boolean }) =>
     isActive ? "bg-brand text-white" : "hover:bg-slate-100 dark:hover:bg-slate-800"
   }`;
 
+export default function App() {
+  return (
+    <BrowserRouter>
+      <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-50 focus:rounded focus:bg-white focus:p-2 focus:text-slate-900">
+        Skip to content
+      </a>
+      <header className="sticky top-0 z-10 border-b border-slate-200 bg-white/90 backdrop-blur dark:border-slate-800 dark:bg-slate-950/90">
+        <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-3" aria-label="Main">
+          <NavLink to="/" className="text-lg font-extrabold tracking-tight">
+            DEVCON <span className="text-brand-accent">Chapters</span>
+          </NavLink>
+          <div className="flex items-center gap-1">
