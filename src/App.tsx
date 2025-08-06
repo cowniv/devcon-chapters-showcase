@@ -22,3 +22,15 @@ export default function App() {
             DEVCON <span className="text-brand-accent">Chapters</span>
           </NavLink>
           <div className="flex items-center gap-1">
+            <NavLink to="/" end className={navClass}>
+              Chapters
+            </NavLink>
+            <NavLink to="/she-is-devcon" className={navClass}>
+              She Is DEVCON
+            </NavLink>
+            <ThemeToggle />
+          </div>
+        </nav>
+      </header>
+      <main id="main" className="mx-auto max-w-6xl px-4 py-8">
+        <Routes>
