@@ -34,3 +34,15 @@ export default function App() {
       </header>
       <main id="main" className="mx-auto max-w-6xl px-4 py-8">
         <Routes>
+          <Route path="/" element={<Chapters />} />
+          <Route path="/chapters/:slug" element={<ChapterDetail />} />
+          <Route path="/she-is-devcon" element={<SheIsDevcon />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <footer className="border-t border-slate-200 py-6 text-center text-xs text-slate-500 dark:border-slate-800">
+        Fan-made student project. Chapter data is fictional sample data.
+      </footer>
+    </BrowserRouter>
+  );
+}
