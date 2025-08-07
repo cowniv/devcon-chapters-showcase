@@ -5,3 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DEVCON Chapters Showcase</title>
     <script>
+      // apply the saved theme before first paint to avoid a flash
+      try {
+        const t = localStorage.getItem("devcon:theme");
+        const dark = t ? JSON.parse(t) === "dark" : matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.classList.toggle("dark", dark);
+      } catch {}
+    </script>
