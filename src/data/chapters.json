@@ -1,0 +1,115 @@
+[
+  {
+    "slug": "manila",
+    "city": "Manila",
+    "region": "Luzon",
+    "founded": 2009,
+    "members": 1250,
+    "tagline": "Where it all started: the capital's builders' hub.",
+    "about": "The Manila chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Web, Cloud and Startups.",
+    "focus": [
+      "Web",
+      "Cloud",
+      "Startups"
+    ],
+    "events": [
+      {
+        "title": "Manila Dev Meetup #10",
+        "date": "2025-06-10",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Web Workshop",
+        "date": "2025-07-20",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Manila Hackathon 2025",
+        "date": "2025-10-01",
+        "kind": "Hackathon"
+      }
+    ]
+  },
+  {
+    "slug": "quezon-city",
+    "city": "Quezon City",
+    "region": "Luzon",
+    "founded": 2012,
+    "members": 980,
+    "tagline": "University-belt energy, weekend build nights.",
+    "about": "The Quezon City chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Web, AI/ML and Open Source.",
+    "focus": [
+      "Web",
+      "AI/ML",
+      "Open Source"
+    ],
+    "events": [
+      {
+        "title": "Quezon City Dev Meetup #11",
+        "date": "2025-07-11",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Web Workshop",
+        "date": "2025-08-21",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Quezon City Summit 2025",
+        "date": "2025-11-02",
+        "kind": "Summit"
+      }
+    ]
+  },
+  {
+    "slug": "baguio",
+    "city": "Baguio",
+    "region": "Luzon",
+    "founded": 2015,
+    "members": 310,
+    "tagline": "Code in the clouds, literally.",
+    "about": "The Baguio chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Mobile, Design and Tourism Tech.",
+    "focus": [
+      "Mobile",
+      "Design",
+      "Tourism Tech"
+    ],
+    "events": [
+      {
+        "title": "Baguio Dev Meetup #12",
+        "date": "2025-08-12",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Mobile Workshop",
+        "date": "2025-09-22",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Baguio Hackathon 2025",
+        "date": "2025-12-03",
+        "kind": "Hackathon"
+      }
+    ]
+  },
+  {
+    "slug": "laguna",
+    "city": "Laguna",
+    "region": "Luzon",
+    "founded": 2016,
+    "members": 420,
+    "tagline": "Engineers from the tech parks and the campuses.",
+    "about": "The Laguna chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on IoT, Embedded and Data.",
+    "focus": [
+      "IoT",
+      "Embedded",
+      "Data"
+    ],
+    "events": [
+      {
+        "title": "Laguna Dev Meetup #13",
+        "date": "2025-06-13",
+        "kind": "Meetup"
+      },
+      {
+        "title": "IoT Workshop",
