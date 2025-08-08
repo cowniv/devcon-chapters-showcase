@@ -113,3 +113,118 @@
       },
       {
         "title": "IoT Workshop",
+        "date": "2025-07-23",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Laguna Summit 2025",
+        "date": "2025-10-04",
+        "kind": "Summit"
+      }
+    ]
+  },
+  {
+    "slug": "pampanga",
+    "city": "Pampanga",
+    "region": "Luzon",
+    "founded": 2017,
+    "members": 360,
+    "tagline": "Central Luzon's growing dev community.",
+    "about": "The Pampanga chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Web and Game Dev.",
+    "focus": [
+      "Web",
+      "Game Dev"
+    ],
+    "events": [
+      {
+        "title": "Pampanga Dev Meetup #14",
+        "date": "2025-07-14",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Web Workshop",
+        "date": "2025-08-24",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Pampanga Hackathon 2025",
+        "date": "2025-11-05",
+        "kind": "Hackathon"
+      }
+    ]
+  },
+  {
+    "slug": "naga",
+    "city": "Naga",
+    "region": "Luzon",
+    "founded": 2018,
+    "members": 240,
+    "tagline": "Bicol's builders, one meetup at a time.",
+    "about": "The Naga chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Mobile and Civic Tech.",
+    "focus": [
+      "Mobile",
+      "Civic Tech"
+    ],
+    "events": [
+      {
+        "title": "Naga Dev Meetup #15",
+        "date": "2025-08-15",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Mobile Workshop",
+        "date": "2025-09-25",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Naga Summit 2025",
+        "date": "2025-12-06",
+        "kind": "Summit"
+      }
+    ]
+  },
+  {
+    "slug": "cebu",
+    "city": "Cebu",
+    "region": "Visayas",
+    "founded": 2011,
+    "members": 870,
+    "tagline": "The Queen City's startup and dev scene.",
+    "about": "The Cebu chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Startups, Cloud and Web.",
+    "focus": [
+      "Startups",
+      "Cloud",
+      "Web"
+    ],
+    "events": [
+      {
+        "title": "Cebu Dev Meetup #16",
+        "date": "2025-06-16",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Startups Workshop",
+        "date": "2025-07-26",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Cebu Hackathon 2025",
+        "date": "2025-10-07",
+        "kind": "Hackathon"
+      }
+    ]
+  },
+  {
+    "slug": "iloilo",
+    "city": "Iloilo",
+    "region": "Visayas",
+    "founded": 2014,
+    "members": 410,
+    "tagline": "Friendly meetups and serious hackathons.",
+    "about": "The Iloilo chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Data, Web and Agritech.",
+    "focus": [
+      "Data",
+      "Web",
+      "Agritech"
+    ],
+    "events": [
