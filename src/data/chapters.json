@@ -228,3 +228,118 @@
       "Agritech"
     ],
     "events": [
+      {
+        "title": "Iloilo Dev Meetup #17",
+        "date": "2025-07-17",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Data Workshop",
+        "date": "2025-08-27",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Iloilo Summit 2025",
+        "date": "2025-11-08",
+        "kind": "Summit"
+      }
+    ]
+  },
+  {
+    "slug": "bacolod",
+    "city": "Bacolod",
+    "region": "Visayas",
+    "founded": 2015,
+    "members": 380,
+    "tagline": "City of Smiles, city of shipped side projects.",
+    "about": "The Bacolod chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Game Dev and Design.",
+    "focus": [
+      "Game Dev",
+      "Design"
+    ],
+    "events": [
+      {
+        "title": "Bacolod Dev Meetup #18",
+        "date": "2025-08-18",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Game Dev Workshop",
+        "date": "2025-09-20",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Bacolod Hackathon 2025",
+        "date": "2025-12-01",
+        "kind": "Hackathon"
+      }
+    ]
+  },
+  {
+    "slug": "tacloban",
+    "city": "Tacloban",
+    "region": "Visayas",
+    "founded": 2017,
+    "members": 220,
+    "tagline": "Building resilient tech for the region.",
+    "about": "The Tacloban chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Disaster Tech and Mobile.",
+    "focus": [
+      "Disaster Tech",
+      "Mobile"
+    ],
+    "events": [
+      {
+        "title": "Tacloban Dev Meetup #19",
+        "date": "2025-06-10",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Disaster Tech Workshop",
+        "date": "2025-07-21",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Tacloban Summit 2025",
+        "date": "2025-10-02",
+        "kind": "Summit"
+      }
+    ]
+  },
+  {
+    "slug": "dumaguete",
+    "city": "Dumaguete",
+    "region": "Visayas",
+    "founded": 2019,
+    "members": 180,
+    "tagline": "Small city, big student turnout.",
+    "about": "The Dumaguete chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Open Source and Education.",
+    "focus": [
+      "Open Source",
+      "Education"
+    ],
+    "events": [
+      {
+        "title": "Dumaguete Dev Meetup #20",
+        "date": "2025-07-11",
+        "kind": "Meetup"
+      },
+      {
+        "title": "Open Source Workshop",
+        "date": "2025-08-22",
+        "kind": "Workshop"
+      },
+      {
+        "title": "Dumaguete Hackathon 2025",
+        "date": "2025-11-03",
+        "kind": "Hackathon"
+      }
+    ]
+  },
+  {
+    "slug": "davao",
+    "city": "Davao",
+    "region": "Mindanao",
+    "founded": 2012,
+    "members": 760,
+    "tagline": "Mindanao's largest community of developers.",
+    "about": "The Davao chapter brings together students, professionals and hobbyists who build things. We run regular meetups, hands-on workshops and at least one hackathon a year, with a focus on Cloud, Fintech and Web.",
