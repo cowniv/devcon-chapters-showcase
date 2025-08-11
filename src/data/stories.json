@@ -1,0 +1,22 @@
+[
+  {
+    "id": "s1",
+    "name": "Ana R.",
+    "role": "Frontend developer",
+    "chapter": "manila",
+    "quote": "I went to my first meetup just to listen. A year later I was the one giving the talk."
+  },
+  {
+    "id": "s2",
+    "name": "Bea L.",
+    "role": "CS student",
+    "chapter": "cebu",
+    "quote": "Mentorship sessions gave me the courage to apply for my first internship."
+  },
+  {
+    "id": "s3",
+    "name": "Carla M.",
+    "role": "Data analyst",
+    "chapter": "davao",
+    "quote": "Seeing women lead workshops made it feel normal to lead one myself."
+  },
