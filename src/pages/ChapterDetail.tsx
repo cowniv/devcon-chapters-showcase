@@ -43,3 +43,26 @@ export default function ChapterDetail() {
         <section className="card p-6">
           <h2 className="text-xl font-bold">About the chapter</h2>
           <p className="mt-2 text-slate-600 dark:text-slate-300">{chapter.about}</p>
+          <h3 className="mt-6 font-semibold">Focus areas</h3>
+          <ul className="mt-2 flex flex-wrap gap-2">
+            {chapter.focus.map((f) => (
+              <li key={f} className="chip bg-slate-100 dark:bg-slate-800">
+                {f}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className="card p-6" aria-labelledby="events-heading">
+          <h2 id="events-heading" className="text-xl font-bold">
+            Events
+          </h2>
+          <ol className="mt-3 space-y-3">
+            {events.map((e) => (
+              <li key={e.title} className="border-l-4 border-brand-accent pl-3">
+                <p className="font-semibold">{e.title}</p>
+                <p className="text-xs text-slate-500">
+                  {e.kind} · <time dateTime={e.date}>{fmt(e.date)}</time>
+                </p>
+              </li>
+            ))}
