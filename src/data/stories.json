@@ -31,3 +31,14 @@
     "id": "s5",
     "name": "Ella T.",
     "role": "UX designer",
+    "chapter": "baguio",
+    "quote": "Design is part of development too, and this community made room for that."
+  },
+  {
+    "id": "s6",
+    "name": "Faith G.",
+    "role": "IoT hobbyist",
+    "chapter": "cagayan-de-oro",
+    "quote": "I soldered my first board at a chapter workshop. I haven't stopped since."
+  }
+]
