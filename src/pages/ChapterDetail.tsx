@@ -66,3 +66,25 @@ export default function ChapterDetail() {
                 </p>
               </li>
             ))}
+          </ol>
+        </section>
+      </div>
+
+      {chapterStories.length > 0 && (
+        <section className="mt-8">
+          <h2 className="text-xl font-bold">
+            From <Link to="/she-is-devcon" className="text-she hover:underline">She Is DEVCON</Link>
+          </h2>
+          {chapterStories.map((s) => (
+            <blockquote key={s.id} className="card mt-3 border-l-4 border-l-she p-5">
+              <p className="italic">“{s.quote}”</p>
+              <footer className="mt-2 text-sm text-slate-500">
+                {s.name}, {s.role}
+              </footer>
+            </blockquote>
+          ))}
+        </section>
+      )}
+    </article>
+  );
+}
