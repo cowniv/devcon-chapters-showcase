@@ -62,3 +62,35 @@ export default function Chapters() {
           id="search"
           className="input"
           placeholder="Search by city or focus (e.g. IoT)"
+          value={q}
+          onChange={(e) => update("q", e.target.value)}
+        />
+        <label className="flex items-center gap-2 text-sm">
+          <span className="whitespace-nowrap">Sort by</span>
+          <select className="input" value={sort} onChange={(e) => update("sort", e.target.value)}>
+            {(Object.keys(SORTS) as SortKey[]).map((k) => (
+              <option key={k} value={k}>
+                {SORTS[k].label}
+              </option>
+            ))}
+          </select>
+        </label>
+        <fieldset className="flex flex-wrap gap-2 sm:col-span-2">
+          <legend className="sr-only">Filter by region</legend>
+          {[null, ...REGIONS].map((r) => (
+            <button
+              key={r ?? "all"}
+              type="button"
+              aria-pressed={region === r}
+              onClick={() => update("region", r)}
+              className={`rounded-full border px-4 py-1.5 text-sm font-medium ${
+                region === r
+                  ? "border-brand bg-brand text-white"
+                  : "border-slate-300 hover:border-brand dark:border-slate-700"
+              }`}
+            >
+              {r ?? "All regions"}
+            </button>
+          ))}
+        </fieldset>
+      </form>
