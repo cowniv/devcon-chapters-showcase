@@ -94,3 +94,35 @@ export default function Chapters() {
           ))}
         </fieldset>
       </form>
+
+      <p className="mb-4 text-sm text-slate-500" aria-live="polite">
+        Showing {results.length} of {chapters.length}
+      </p>
+
+      {results.length === 0 ? (
+        <p className="card p-8 text-center text-slate-500">No chapters match that search.</p>
+      ) : (
+        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {results.map((c) => (
+            <li key={c.slug}>
+              <Link
+                to={`/chapters/${c.slug}`}
+                className="card group block h-full p-5 transition hover:-translate-y-0.5 hover:border-brand"
+              >
+                <div className="flex items-center justify-between">
+                  <RegionBadge region={c.region} />
+                  <span className="text-xs text-slate-500">since {c.founded}</span>
+                </div>
+                <h2 className="mt-3 text-xl font-bold group-hover:text-brand dark:group-hover:text-brand-accent">
+                  DEVCON {c.city}
+                </h2>
+                <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{c.tagline}</p>
+                <p className="mt-4 text-sm font-semibold">{c.members.toLocaleString()} members</p>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
+  );
+}
