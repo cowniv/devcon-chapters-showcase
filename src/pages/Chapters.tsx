@@ -30,3 +30,35 @@ export default function Chapters() {
   };
 
   const results = useMemo(() => {
+    const term = q.trim().toLowerCase();
+    return chapters
+      .filter((c) => !region || c.region === region)
+      .filter(
+        (c) =>
+          !term ||
+          c.city.toLowerCase().includes(term) ||
+          c.tagline.toLowerCase().includes(term) ||
+          c.focus.some((f) => f.toLowerCase().includes(term))
+      )
+      .sort(SORTS[sort].compare);
+  }, [q, region, sort]);
+
+  const total = chapters.reduce((sum, c) => sum + c.members, 0);
+
+  return (
+    <>
+      <section className="mb-8">
+        <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Find your local chapter</h1>
+        <p className="mt-2 max-w-2xl text-slate-600 dark:text-slate-400">
+          {chapters.length} chapters and {total.toLocaleString()} members across Luzon, Visayas and Mindanao.
+        </p>
+      </section>
+
+      <form className="mb-6 grid gap-3 sm:grid-cols-[1fr_auto]" role="search" onSubmit={(e) => e.preventDefault()}>
+        <label className="sr-only" htmlFor="search">
+          Search chapters
+        </label>
+        <input
+          id="search"
+          className="input"
+          placeholder="Search by city or focus (e.g. IoT)"
