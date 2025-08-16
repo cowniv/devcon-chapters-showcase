@@ -55,3 +55,22 @@ export default function SheIsDevcon() {
                     {initials}
                   </span>
                   <div>
+                    <p className="font-semibold">{s.name}</p>
+                    <p className="text-xs text-slate-500">{s.role}</p>
+                  </div>
+                </div>
+                <blockquote className="mt-4 flex-1 italic text-slate-700 dark:text-slate-300">“{s.quote}”</blockquote>
+                {chapter && (
+                  <Link to={`/chapters/${chapter.slug}`} className="mt-4 text-sm font-medium text-she hover:underline">
+                    DEVCON {chapter.city} →
+                  </Link>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+        <p className="mt-6 text-xs text-slate-500">Personas on this page are fictional and used for demo purposes.</p>
+      </section>
+    </>
+  );
+}
