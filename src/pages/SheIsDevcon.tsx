@@ -17,3 +17,22 @@ export default function SheIsDevcon() {
         >
           Read their stories
         </a>
+      </section>
+
+      <section className="mt-12" aria-labelledby="programs-heading">
+        <h2 id="programs-heading" className="text-2xl font-bold">
+          Program highlights
+        </h2>
+        <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {programs.map((p, i) => (
+            <li key={p.title} className="card p-5">
+              <span className="text-3xl font-black text-she/40">0{i + 1}</span>
+              <h3 className="mt-1 font-bold">{p.title}</h3>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{p.description}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section id="stories" className="mt-12 scroll-mt-20" aria-labelledby="stories-heading">
+        <h2 id="stories-heading" className="text-2xl font-bold">
