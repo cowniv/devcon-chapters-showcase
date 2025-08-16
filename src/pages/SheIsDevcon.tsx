@@ -36,3 +36,22 @@ export default function SheIsDevcon() {
 
       <section id="stories" className="mt-12 scroll-mt-20" aria-labelledby="stories-heading">
         <h2 id="stories-heading" className="text-2xl font-bold">
+          Stories
+        </h2>
+        <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {stories.map((s) => {
+            const chapter = findChapter(s.chapter);
+            const initials = s.name
+              .split(" ")
+              .map((w) => w[0])
+              .join("");
+            return (
+              <li key={s.id} className="card flex flex-col p-6">
+                <div className="flex items-center gap-3">
+                  <span
+                    aria-hidden="true"
+                    className="grid h-12 w-12 place-items-center rounded-full bg-she/15 font-bold text-she"
+                  >
+                    {initials}
+                  </span>
+                  <div>
