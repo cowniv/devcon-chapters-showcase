@@ -6,3 +6,6 @@ const STYLE: Record<Region, string> = {
   Mindanao: "bg-emerald-100 text-emerald-800 dark:bg-emerald-900/50 dark:text-emerald-200",
 };
 
+export default function RegionBadge({ region }: { region: Region }) {
+  return <span className={`chip ${STYLE[region]}`}>{region}</span>;
+}
