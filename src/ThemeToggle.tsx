@@ -12,3 +12,10 @@ export default function ThemeToggle() {
     document.documentElement.classList.toggle("dark", theme === "dark");
   }, [theme]);
 
+  const next: Theme = theme === "dark" ? "light" : "dark";
+  return (
+    <button
+      type="button"
+      onClick={() => setTheme(next)}
+      aria-label={`Switch to ${next} mode`}
+      title={`Switch to ${next} mode`}
