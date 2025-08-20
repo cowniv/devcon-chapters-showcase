@@ -19,3 +19,9 @@ export default function ThemeToggle() {
       onClick={() => setTheme(next)}
       aria-label={`Switch to ${next} mode`}
       title={`Switch to ${next} mode`}
+      className="ml-1 rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-800"
+    >
+      <span aria-hidden="true">{theme === "dark" ? "☀️" : "🌙"}</span>
+    </button>
+  );
+}
