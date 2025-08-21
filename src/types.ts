@@ -16,3 +16,12 @@ export interface Chapter {
   members: number;
   tagline: string;
   about: string;
+  focus: string[];
+  events: ChapterEvent[];
+}
+
+export interface Story {
+  id: string;
+  name: string; // fictional persona, not a real person
+  role: string;
+  chapter: string; // chapter slug
