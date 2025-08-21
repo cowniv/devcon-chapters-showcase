@@ -25,3 +25,12 @@ export interface Story {
   name: string; // fictional persona, not a real person
   role: string;
   chapter: string; // chapter slug
+  quote: string;
+}
+
+export interface Program {
+  title: string;
+  description: string;
+}
+
+export type SortKey = "name" | "members" | "founded";
