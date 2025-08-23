@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-brand: #1e3a8a;
+  --color-brand-accent: #f59e0b;
+  --color-she: #db2777;
