@@ -13,3 +13,10 @@ I designed these pages before but never built them myself, so this is me rebuild
 - "She Is DEVCON" feature page with a hero, program highlights and a stories grid
 - Light/dark toggle saved to localStorage. The saved theme is applied before first paint so the page doesn't flash
 - Accessibility: skip link, `aria-pressed` filter buttons, labelled sections, visible focus rings
+- 404 page for unknown routes and slugs
+
+### Run
+```bash
+npm install
+npm run dev
+```
