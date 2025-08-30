@@ -20,3 +20,10 @@ I designed these pages before but never built them myself, so this is me rebuild
 npm install
 npm run dev
 ```
+
+### What I practiced
+- React Router v6: nested routes, `useParams`, `useSearchParams`, `NavLink` active styles
+- Typing JSON data and narrowing it once at the boundary
+- Type guards (`isRegion`, `isSort`) for values that come from the URL
+- Tailwind v4 `@custom-variant` for class-based dark mode
+- Semantic HTML and keyboard-friendly UI
